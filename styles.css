@@ -25,6 +25,7 @@ aside {
     font-size: 0.90em;
     justify-content: right;
     text-align: right;
+    background-color: #fffbea
     color: rgb(17, 16, 16);
     padding: 10px;
     flex-wrap: wrap;
@@ -54,7 +55,7 @@ h2 {
 }
 section {
     color: rgb(17, 16, 16);
-    background-color: rgb(237, 215, 185);
+    background-color: #dff7df;
     text-align: left;
     padding: 10px;
     text-align: justify;
@@ -72,3 +73,4 @@ footer a:link {
     color: rgb(188, 185, 185);
     text-decoration: underline;
 }
+
