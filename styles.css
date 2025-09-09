@@ -1,0 +1,74 @@
+body {
+    color: rgb(17, 16, 16);
+    background-image: url("WidgetCoLogo.gif"); /* background image */
+    background-position: center;               /* center the image */
+    background-repeat: no-repeat;             /* don’t tile */
+    background-size: cover;                   /* stretch to fill screen */
+    background-attachment: fixed;            /* stays in place when scrolling */
+    text-align: justify;
+}
+header {
+    color: rgb(17, 16, 16);
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 15px;
+    padding: 5px;
+}
+aside::first-line {
+    color: rgb(17, 16, 16);
+    font-weight: bold;
+}
+aside {
+    font-size: 0.90em;
+    justify-content: right;
+    text-align: right;
+    color: rgb(17, 16, 16);
+    padding: 10px;
+    flex-wrap: wrap;
+    border-right-style: solid;
+    border-right-width: 15px;
+    border-right-color: rgb(10, 10, 142);
+}
+h1 {
+    color: rgb(17, 16, 16);
+    justify-content: left;
+    text-align: left; 
+    flex-wrap: wrap;
+    font-size: 3em; 
+}
+article {
+    color: rgb(17, 16, 16);
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+}
+h2 {
+    color: rgb(17, 16, 16);
+    margin-left: 100px;
+    margin-right: 100px;
+    font-style: italic;
+    text-align: justify;
+}
+section {
+    color: rgb(17, 16, 16);
+    background-color: rgb(237, 215, 185);
+    text-align: left;
+    padding: 10px;
+    text-align: justify;
+    border-style: solid;
+    border-color: rgb(29, 177, 29);
+    border-width: 2px;
+    border-left-width: 25px;
+}
+footer {
+    color: rgb(188, 185, 185);
+    text-align: right;
+    border-top-color: rgb(188, 185, 185);
+}
+footer a:link {
+    color: rgb(188, 185, 185);
+    text-decoration: underline;
+}
